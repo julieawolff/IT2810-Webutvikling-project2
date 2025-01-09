@@ -1,0 +1,54 @@
+.header-and-button {
+  display: flex;
+  flex-direction: row;
+  max-width: 1500px;
+  gap: 30px;
+  align-self: start;
+}
+
+.profile-card {
+  display: flex;
+  flex-direction: column;
+  max-width: 1500px;
+  min-width: 80vw;
+  height: 370px;
+  margin-top: 60px;
+  align-self: center;
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.1) !important;
+  margin-bottom: 30px;
+  background: url(stars_background.avif), rgba(0, 0, 0, 0.1);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+  margin: 20px 20px;
+}
+
+.picture-and-name {
+  opacity: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 3%;
+}
+
+@media (max-width: 1300px) {
+  .header-and-button {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .header-and-button {
+    zoom: 0.8;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .profile-card {
+    zoom: 0.8;
+  }
+  .picture-and-name {
+    zoom: 0.8;
+    padding-top: 8%;
+  }
+}

@@ -1,0 +1,9 @@
+.outer-select-box {
+  width: 25%;
+}
+
+@media (max-width: 880px) {
+  .outer-select-box {
+    width: 80%;
+  }
+}

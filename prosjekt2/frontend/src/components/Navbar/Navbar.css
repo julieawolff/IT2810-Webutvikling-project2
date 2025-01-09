@@ -1,0 +1,78 @@
+.toolbar {
+  justify-content: space-between;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo-button {
+  outline: none;
+}
+
+.logo-image {
+  max-width: 60px;
+}
+
+.application-name {
+  color: black;
+  padding-left: 10px;
+  font-size: 3em !important;
+  font-weight: 600 !important;
+}
+
+.user-icon-container {
+  display: flex;
+  align-items: center;
+}
+
+.user-icon-button {
+  color: black !important;
+  outline: none;
+  margin-left: 25px;
+}
+
+.user-icon {
+  font-size: 40px !important;
+}
+
+@media (max-width: 1000px) {
+  .application-name {
+    font-size: 2.5em !important;
+  }
+}
+
+@media (max-width: 800px) {
+  .application-name {
+    font-size: 2em !important;
+  }
+  .user-icon {
+    font-size: 30px !important;
+  }
+}
+
+@media (max-width: 570px) {
+  .application-name {
+    font-size: 1.3em !important;
+    padding: 0;
+  }
+  .user-icon-container {
+    width: 170px;
+  }
+  .user-icon {
+    font-size: 30px !important;
+  }
+  .user-icon-button {
+    margin-left: 10px;
+  }
+}
+@media (max-width: 440px) {
+  .application-name {
+    font-size: 0.9em !important;
+    padding: 0;
+  }
+  .logo-image {
+    max-width: 40px;
+  }
+}

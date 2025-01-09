@@ -1,0 +1,9 @@
+.outer-box {
+  width: 25%;
+}
+
+@media (max-width: 880px) {
+  .outer-box {
+    width: 80%;
+  }
+}

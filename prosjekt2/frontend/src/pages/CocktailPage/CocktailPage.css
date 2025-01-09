@@ -1,0 +1,44 @@
+.cocktail-title-and-heart {
+  text-align: center;
+}
+
+.icon {
+  font-size: 2.5rem !important;
+  vertical-align: middle;
+  margin-left: 15px;
+  position: relative;
+  top: -5px;
+}
+
+.image-and-ingredients-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 2%;
+  margin: 20px 0;
+  padding: 20px;
+  border-radius: 4px;
+  height: 'auto';
+}
+
+.cocktail-image {
+  flex: 40%;
+  height: 100%;
+  border-radius: 3px;
+  max-width: 48%;
+  border-radius: 4px;
+}
+
+@media screen and (max-width: 768px) {
+  .image-and-ingredients-list {
+    flex-direction: column;
+  }
+
+  .cocktail-image {
+    max-width: 100%;
+  }
+
+  .cocktail-title-and-heart {
+    font-size: xx-large !important;
+  }
+}

@@ -1,0 +1,35 @@
+.section-box {
+  margin-top: 10px;
+  max-height: 300px;
+  gap: 18px;
+  overflow-y: auto;
+  padding-left: 10px;
+  padding-top: 8px;
+  padding-bottom: 10px;
+  border-radius: 8px;
+}
+
+.review-section-box {
+  margin: 1px;
+  padding: 4rem;
+  border-radius: 4px;
+  display: grid;
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.review-section-item {
+  cursor: pointer;
+}
+
+.delete-button {
+  margin-top: 5px;
+}
+
+@media (max-width: 500px) {
+  .review-section-box {
+    zoom: 0.8;
+  }
+}

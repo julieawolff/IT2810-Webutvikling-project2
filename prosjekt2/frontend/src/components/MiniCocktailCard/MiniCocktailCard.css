@@ -1,0 +1,20 @@
+.content-box {
+  display: flex;
+}
+
+.content-box:hover {
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.mini-image {
+  width: 80%;
+  height: 230px;
+  object-fit: cover;
+  border-radius: 12px;
+  filter: opacity(80%);
+  padding: 10px 0;
+}
+
+.mini-image:hover {
+  filter: grayscale(0%);
+}

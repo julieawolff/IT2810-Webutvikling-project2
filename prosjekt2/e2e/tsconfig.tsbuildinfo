@@ -1,0 +1,1 @@
+{"root":["./cypress.config.ts","./cypress/e2e/changeusername.cy.ts","./cypress/e2e/commenting.cy.ts","./cypress/e2e/favoriting.cy.ts","./cypress/e2e/filtering.cy.ts","./cypress/e2e/routing.cy.ts","./cypress/e2e/searching.cy.ts","./cypress/e2e/sorting.cy.ts"],"version":"5.6.2"}

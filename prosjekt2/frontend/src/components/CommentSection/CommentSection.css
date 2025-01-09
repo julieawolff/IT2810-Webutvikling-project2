@@ -1,0 +1,19 @@
+.comment-section-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+  width: 100%;
+  margin: 20px 0;
+  padding: 2rem;
+  border-radius: 4px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  max-height: 660px;
+}
+
+.comment-section-list {
+  gap: 10px;
+  width: 100%;
+  overflow-y: scroll;
+}

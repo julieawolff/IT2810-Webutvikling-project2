@@ -1,0 +1,31 @@
+.table {
+  margin-top: 20px !important;
+  margin-bottom: 40px;
+  margin-left: 0 !important;
+  display: grid;
+  max-width: 1500px;
+  min-width: 80vw;
+}
+
+.cocktail-section {
+  gap: 18px !important;
+  overflow-x: auto;
+}
+
+.mini-cocktail-card {
+  width: 280px;
+  height: 405px;
+}
+
+@media (max-width: 1300px) {
+  .table {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media (max-width: 500px) {
+  .mini-cocktail-card {
+    zoom: 0.8;
+  }
+}

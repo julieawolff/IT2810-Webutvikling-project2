@@ -1,0 +1,59 @@
+.cocktail-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 300px;
+}
+
+.cocktail-card:hover {
+  cursor: pointer;
+}
+
+.image {
+  width: 88%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 8px;
+  filter: opacity(80%);
+}
+
+.rating-box {
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  width: 100%;
+  margin-right: 15px;
+  padding: 2px 0 4px 0;
+  gap: 2px;
+}
+
+.image:hover {
+  filter: grayscale(0%);
+}
+
+.text-and-icon-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 110px;
+}
+
+.icon:hover {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1000px) {
+  .cocktail-card {
+    max-width: 350px;
+    margin: 0 10px;
+  }
+}
+@media screen and (max-width: 570px) {
+  .cocktail-card {
+    max-width: 95%;
+  }
+  .image {
+    width: 90%;
+    height: 300px;
+  }
+}
