@@ -4,8 +4,6 @@ Link to our website: http://it2810-13.idi.ntnu.no/project2/
 
 Make sure you are either connected to an NTNU Wifi or VPN and that you do not have another server running on port 3001.
 
-**NOTE #1:** On the VM, you cannot refresh the page - we will look into this for the next hand-in. If you want to test for instance session storage for filtering, you should do it locally.
-If you encounter difficulties with loading the page you can always go back to the start link: http://it2810-13.idi.ntnu.no/project2/ or refresh.
 
 ## 🥂 Short description
 
